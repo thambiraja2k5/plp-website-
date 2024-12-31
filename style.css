@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: repeating-linear-gradient(
+        45deg,            /* Angle of the stripes */
+        green,            /* Start with green */
+        rgb(29.41, 32.55, 12.55) 20px,       /* Green stripe width */
+        black 10px,       /* Start black */
+        rgb(65, 59, 59) 30px        /* Black stripe width */
+    );
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px 30px; /* Add balanced padding for symmetry */
+    border-radius: 8px; /* Keep rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+    width: 350px; /* Set a fixed width for consistency */
+    text-align: center;
+    margin: auto; /* Center the container */
+    box-sizing: border-box;
+}
+h1 {
+    color: #333;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #dac511;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#additional-info p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #007bff;
+}
